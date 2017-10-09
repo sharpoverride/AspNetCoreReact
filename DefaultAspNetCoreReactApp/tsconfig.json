@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "allowJs": true,
-    "module": "es2015",
+    "baseUrl": ".",
+    "module": "esnext",
     "moduleResolution": "node",
     "target": "es5",
     "jsx": "react",
