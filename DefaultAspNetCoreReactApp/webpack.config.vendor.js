@@ -17,7 +17,8 @@ module.exports = (env) => {
             ]
         },
         entry: {
-            vendor: ['event-source-polyfill', 'react', 'react-dom', 'react-router-dom'],
+            vendor: ['event-source-polyfill', 'react', 'react-dom', 'react-router-dom',
+        'typeface-roboto'],
         },
         output: {
             path: path.join(__dirname, 'wwwroot', 'dist'),
