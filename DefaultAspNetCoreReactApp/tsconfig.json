@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "allowJs": true,
     "baseUrl": ".",
     "module": "es2015",
     "moduleResolution": "node",
@@ -8,6 +9,8 @@
     "sourceMap": true,
     "skipDefaultLibCheck": true,
     "strict": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
     "types": ["webpack-env"]
   },
   "exclude": [
