@@ -47,7 +47,7 @@ export class FetchData extends React.Component<RouteComponentProps<{}>, FetchDat
                     <td>{ forecast.dateFormatted }</td>
                     <td>{ forecast.temperatureC }</td>
                     <td>{ forecast.temperatureF }</td>
-                    <td>{ forecast.summary }</td>
+                    <td>{ forecast.summary }:C</td>
                 </tr>
             )}
             </tbody>

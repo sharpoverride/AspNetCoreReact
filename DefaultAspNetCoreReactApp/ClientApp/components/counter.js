@@ -1,19 +1,19 @@
 import * as React from 'react';
 import { RouteComponentProps } from 'react-router';
 
-interface CounterState {
-    currentCount: number;
-}
+// interface CounterState {
+//     currentCount: number;
+// }
 
-export class Counter extends React.Component<RouteComponentProps<{}>, CounterState> {
+export class Counter extends React.Component/*<RouteComponentProps<{}>, CounterState>*/ {
     constructor() {
         super();
         this.state = { currentCount: 0 };
     }
 
-    public render() {
+    /*public*/ render() {
         return <div>
-            <h1>Counter</h1>
+            <h1>Counter features some </h1>
 
             <p>This is a simple example of a React component.</p>
 
